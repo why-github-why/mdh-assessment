@@ -30,7 +30,7 @@ Please refer to *requirements.txt*
 - [ ] Reconstruct image based on smallest distance
 - [ ] Save output image
 
-## Functions
+## Code
 Calculate average RGB:\
 *Provide image URL (in string format)*
 ```
