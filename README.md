@@ -36,6 +36,7 @@ Source: [color_calculator.py](https://github.com/why-github-why/mdh-assessment/b
 *Provide image URL (in string format):*
 ```
 def avg_rgb(img_url):
+    """ Calculate average RGB """
     ...
 ```
 
