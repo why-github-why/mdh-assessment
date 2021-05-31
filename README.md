@@ -31,33 +31,35 @@ Please refer to *requirements.txt*
 - [ ] Save output image
 
 ## Code
-Calculate average RGB:\
-*Provide image URL (in string format)*
+#### Calculate average RGB
+Source: [color_calculator.py](https://github.com/why-github-why/mdh-assessment/blob/main/color_calculator.py) \
+*Provide image URL (in string format):*
 ```
 def avg_rgb(img_url):
     ...
 ```
 
-Convert RGB to XYZ to LAB:\
+#### Convert RGB to XYZ to LAB
+Source: [color_calculator.py](https://github.com/why-github-why/mdh-assessment/blob/main/color_calculator.py) \
 Calculations based on: http://www.easyrgb.com/en/math.php \
-*Provide R, G, B values (as float values)*
+*Provide R, G, B values (as float values):*
 ```
 def rgb_to_lab(red, green, blue):
     """ Convert RGB to XYZ to LAB """
     ...
 ```
-
-Calculate distance between two LAB values:\
+#### Calculate distance between two LAB values
+Source: [color_calculator.py](https://github.com/why-github-why/mdh-assessment/blob/main/color_calculator.py) \
 Calculations also based on: http://www.easyrgb.com/en/math.php \
-*Provide two different LAB results (as lists)* 
+*Provide two different LAB results (as lists):*
 ```
 def calc_delta(lab_1, lab_2):
     """ Calculate color difference of LAB (CIE-L*ab) using the Delta E* CIE formula """
     ...
 ```
-
-Slice image into 20 x 20 tiles: \
-*Provide image URL and number of tiles (20 x 20 = 400)*
+#### Slice image into 20 x 20 tiles
+Source: [reconstruct_image.py](https://github.com/why-github-why/mdh-assessment/blob/main/reconstruct_image.py) \
+*Provide image URL and number of tiles (20 x 20 = 400):*
 ```
 img = './images/brain/tiles/brain.png'
 num_tiles = 400
